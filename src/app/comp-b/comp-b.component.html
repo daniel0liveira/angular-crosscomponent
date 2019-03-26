@@ -1,0 +1,6 @@
+<h1>Componente B</h1>
+<input type="text" [(ngModel)]="msg" #m="ngModel" [ngModelOptions]="{standalone: true}"/>
+<button type="button" (click)="sendMessageToA()">Enviar</button>
+<button type="button" (click)="clearMessage()">Limpar</button>
+
+<h1>{{abc}}</h1>
